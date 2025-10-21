@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI – Cooktop Totalmente Acessível</title>
+</head>
+
+<body style="font-family: 'Open Sans', sans-serif; margin: 0; padding: 0; background-color: #f7f7f9; color: #2c3e50;">
+
+    <header style="background-color: #1abc9c; color: white; padding: 25px; text-align: center;">
+        <h1 style="margin: 0; font-size: 2.2em;">Projeto UX/UI: Usabilidade e Acessibilidade na Interface de um Fogão</h1>
+    </header>
+
+    <section id="apresentacao" style="padding: 40px 20px; max-width: 850px; margin: 25px auto; background-color: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+        <h2 style="color: #1abc9c; border-bottom: 3px solid #1abc9c; padding-bottom: 12px;">1️⃣ Apresentação do Projetista e do Projeto</h2>
+
+        <div style="margin-bottom: 20px;">
+            <p><strong>Walter Borges de Oliveira Silva</strong></p>
+            <p>Com 46 anos e formação em Ciência da Computação, atuo como programador .Net. Meu interesse em UX/UI se traduz na busca por soluções tecnológicas que sejam não apenas funcionais, mas também humanas e inclusivas. Este projeto reflete essa paixão por desenvolver interfaces que realmente façam a diferença na vida das pessoas.</p>
+        </div>
+
+        <div style="margin-top: 30px; padding-top: 20px; border-top: 1px dashed #ccc;">
+            <h3 style="color: #333;">Sobre o Cooktop: Modelo Elétrico de 2 Bocas</h3>
+            <p>Este projeto de interface é desenvolvido para um Cooktop Elétrico de 2 Bocas. A escolha do modelo elétrico elimina riscos associados ao gás e simplifica o controle de temperatura. A configuração de duas bocas é ideal para otimizar a clareza da interface e reduzir a complexidade para usuários com necessidades especiais, garantindo que o espaço de interação seja intuitivo e fácil de gerenciar.</p>
+        </div>
+    </section>
+
+    <section id="interface" style="padding: 40px 20px; max-width: 850px; margin: 25px auto; background-color: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+        <h2 style="color: #1abc9c; border-bottom: 3px solid #1abc9c; padding-bottom: 12px;">2️⃣ Nova Interface</h2>
+		
+        <img src="Cooktop.png" alt="Imagem do protótipo do Cooktop" style="display: block; max-width: 90%; height: auto; margin: 20px auto; background-color: #ffffff; border: 3px solid #1abc9c; padding: 8px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+		
+        <figure style="text-align: center; margin: 30px 0;">
+            <div style="width: 100%; height: 300px; background-color: #ecf0f1; border: 3px solid #7f8c8d; margin: 0 auto; border-radius: 6px; display: flex; align-items: flex-start; justify-content: space-around; padding-top: 20px; transform: rotateX(-10deg); /* Simula a inclinação */">
+                
+                <div style="text-align: center; border-right: 1px solid #bdc3c7; padding: 0 20px;">
+                    <p style="margin: 5px 0; font-weight: bold; color: #1abc9c;">BOCA 1 (Esquerda)</p>
+                    <button style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; margin: 5px 0; cursor: pointer; width: 120px;" title="Tato: Ponto Único">Nível 1 (Baixo)</button>
+                    <button style="background-color: #f39c12; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; margin: 5px 0; cursor: pointer; width: 120px;" title="Tato: Dois Pontos">Nível 2 (Médio)</button>
+                    <button style="background-color: #e74c3c; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; margin: 5px 0 15px 0; cursor: pointer; width: 120px;" title="Tato: Três Pontos">Nível 3 (Alto)</button>
+                    <button style="background-color: #7f8c8d; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; cursor: pointer; width: 120px;" title="Tato: Linha Horizontal">DESLIGAR BOCA</button>
+                    <button style="background-color: #9b59b6; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; cursor: pointer; width: 120px; margin-top: 10px;" title="Tato: Seta para Cima">+ 10 MINUTOS</button>
+                    <div style="font-size: 1.8em; font-weight: bold; color: #1abc9c; margin-top: 5px;">LED: LIGADO</div>
+                </div>
+                
+                <div style="text-align: center; padding: 0 15px;">
+                    <p style="margin: 5px 0; font-size: 1.2em; font-weight: bold; color: #7f8c8d;">DISPLAY CENTRAL (BRAILLE/TEXTO)</p>
+                    <div style="font-size: 1.8em; font-weight: bold; color: #1abc9c; margin-bottom: 15px; background-color: #111; color: #fff; padding: 5px; border-radius: 3px;">TEMPO: 15 MIN</div>
+                    
+                    <button style="background-color: #c0392b; color: white; padding: 20px 30px; border: none; border-radius: 10px; font-size: 1.6em; margin-top: 10px; cursor: pointer; box-shadow: 0 6px #a83227; font-weight: bold;" title="Tato: X em Alto Relevo">STOP GERAL</button>
+                </div>
+
+                <div style="text-align: center; border-left: 1px solid #bdc3c7; padding: 0 20px;">
+                    <p style="margin: 5px 0; font-weight: bold; color: #1abc9c;">BOCA 2 (Direita)</p>
+                    <button style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; margin: 5px 0; cursor: pointer; width: 120px;" title="Tato: Ponto Único">Nível 1 (Baixo)</button>
+                    <button style="background-color: #f39c12; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; margin: 5px 0; cursor: pointer; width: 120px;" title="Tato: Dois Pontos">Nível 2 (Médio)</button>
+                    <button style="background-color: #e74c3c; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; margin: 5px 0 15px 0; cursor: pointer; width: 120px;" title="Tato: Três Pontos">Nível 3 (Alto)</button>
+                    <button style="background-color: #7f8c8d; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; cursor: pointer; width: 120px;" title="Tato: Linha Horizontal">DESLIGAR BOCA</button>
+                    <button style="background-color: #9b59b6; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 1.1em; cursor: pointer; width: 120px; margin-top: 10px;" title="Tato: Seta para Cima">+ 10 MINUTOS</button>
+                    <div style="font-size: 1.8em; font-weight: bold; color: #2ecc71; margin-top: 5px;">LED: DESLIGADO</div>
+                </div>
+
+            </div>
+            <figcaption style="margin-top: 10px; font-style: italic; color: #555;">Interface - Painel inclinado, botões táteis e feedback sonoro/visual.</figcaption>
+        </figure>
+
+        <h3 style="color: #333;">Acessibilidade e Usabilidade</h3>
+        <ul style="list-style-type: disc; padding-left: 20px;">
+            <li><strong style="color: #1abc9c;">Posicionamento (Cadeirantes/Nanismo/Gigantismo):</strong> O painel é frontal e inclinado (aprox. 10°), eliminando a necessidade de alcance profundo ou vertical.</li>
+            <li><strong style="color: #1abc9c;">Deficiência Visual/Tato:</strong> Todos os botões possuem um símbolo tátil correspondente (pontos, linhas, setas) e o fogão possui feedback por voz para cada ação.</li>
+            <li><strong style="color: #1abc9c;">Daltonismo:</strong> As cores (Azul, Amarelo, Vermelho) são complementadas por texto (Baixo, Médio, Alto).</li>
+            <li><strong style="color: #1abc9c;">Deficiência Auditiva:</strong> O status principal é comunicado visualmente por LEDs grandes e pelo texto no display central.</li>
+            <li><strong style="color: #1abc9c;">Memória/Cognitiva:</strong> Manutenção da simplicidade e do temporizador de segurança obrigatório.</li>
+        </ul>
+    </section>
+
+    <section id="manual" style="padding: 40px 20px; max-width: 850px; margin: 25px auto; background-color: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+        <h2 style="color: #1abc9c; border-bottom: 3px solid #1abc9c; padding-bottom: 12px;">3️⃣ Manual de Utilização Acessível: Guia Completo</h2>
+
+        <h3 style="color: #333;">Comandos e Feedback</h3>
+        <p>Cada ação no fogão gera um feedback em três canais: Visual (LED/Display), Auditivo (Voz) e Tátil (Braille/Relevo)</p>
+        
+        <div style="background-color: #ecf0f1; border-left: 5px solid #1abc9c; padding: 15px; margin: 15px 0;">
+            <p style="font-weight: bold; margin-top: 0;">PASSO 1: Ligar e Escolher o Nível</p>
+            <ol style="padding-left: 20px;">
+                <li>Identifique: Use o tato (pontos) ou a cor (Baixo/Médio/Alto) para escolher o botão.</li>
+                <li>Ação: Pressione o botão de nível (ex: Amarelo/2 Pontos).</li>
+                <li>Feedback:
+                    <ul style="list-style-type: circle; margin: 5px 0;">
+                        <li>Voz: "Boca [Nome], nível Médio. Temporizador iniciado."</li>
+                        <li>Visual: O LED da boca acende e o tempo aparece no display central.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div style="background-color: #ecf0f1; border-left: 5px solid #7f8c8d; padding: 15px; margin: 15px 0;">
+            <p style="font-weight: bold; margin-top: 0;">PASSO 2: Desligar a Boca (Ação Imediata)</p>
+            <ol style="padding-left: 20px;">
+                <li>Ação: Pressione o botão CINZA (Tato: Linha Horizontal).</li>
+                <li>Feedback:
+                    <ul style="list-style-type: circle; margin: 5px 0;">
+                        <li>Voz: "Boca [Nome] desligada. Está seguro."</li>
+                        <li>Visual: O LED da boca apaga e o tempo some do display.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        
+        <div style="background-color: #ecf0f1; border-left: 5px solid #9b59b6; padding: 15px; margin: 15px 0;">
+            <p style="font-weight: bold; margin-top: 0;">PASSO 3: Aumentar o Tempo de Cozimento</p>
+            <p>Se precisar de mais tempo, pressione o botão ROXO (Tato: Seta para Cima).</p>
+            <p>Feedback Voz: "10 minutos adicionados. O tempo total restante é [novo tempo total].". (Confirmação para a memória).</p>
+        </div>
+
+        <h3 style="color: #333;">Dicas de Segurança Acessíveis</h3>
+        <ul style="list-style-type: square; padding-left: 20px; color: #e74c3c; font-weight: bold;">
+            <li><strong style="color: #e74c3c;">Desligamento Geral (STOP):</strong> Use o botão VERMELHO/Alto Relevo X em caso de emergência ou confusão. Ele desliga tudo.</li>
+            <li><strong style="color: #e74c3c;">Aviso de Segurança (Voz/LED):</strong> Se a panela não estiver na boca ligada, o fogão dirá: *"Atenção! Coloque a panela na boca. Desligando em 15 segundos." (O LED piscará rapidamente).</li>
+        </ul>
+
+        <h3 style="color: #333;">Recursos Multimídia (Indicação Essencial)</h3>
+        <p>Para este projeto, um vídeo com Legendas e Audiodescrição é crucial. O vídeo deve mostrar o toque nos botões (para o cego ver a localização) e as legendas (para o surdo acompanhar as confirmações de voz). O áudio-guia lido em voz alta deve ser o manual padrão para usuários com deficiência visual.</p>
+    </section>
+
+    <footer style="background-color: #2c3e50; color: white; text-align: center; padding: 15px; margin-top: 25px;">
+        <p style="margin: 0; font-size: 0.9em;">Projeto de UX/UI | Acessibilidade Multimodal e Usabilidade.</p>
+    </footer>
+
+</body>
+</html>
